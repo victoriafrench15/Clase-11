@@ -1,20 +1,23 @@
 .body {
   font-family: sans-serif, "pt sans narrow"; }
 
-.tituloprincipal, .titulos, #subtitulo {
+.tituloprincipal, .titulos, #subtitulo, .contacto {
   font-size: 10vw;
   font-family: sans-serif, "pt sans narrow";
   color: #b8b4b3;
   font-weight: bold;
   text-decoration: none; }
 
-.tituloprincipal:hover, .titulos:hover, #subtitulo:hover {
+.tituloprincipal:hover, .titulos:hover, #subtitulo:hover, .contacto:hover {
   color: #b8b4b3; }
 
 .titulos {
   font-size: 6vw; }
 
 #subtitulo {
+  font-size: 4vw; }
+
+.contacto {
   font-size: 4vw; }
 
 li {
