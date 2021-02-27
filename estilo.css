@@ -80,11 +80,26 @@ li{
 #botonvermas:hover {
     transform: scale(1.5);
     color:#b8b4b3;
-
 }
 
 .boton:hover {
     background-color: rgb(187, 184, 184);
+}
+
+.page-item{
+    color:#b8b4b3;
+}
+
+.page-item:hover{
+    color:#b8b4b3;
+}
+
+.page-link{
+    color:#b8b4b3;
+}
+
+.page-link:hover{
+    color:#b8b4b3;
 }
 
 .cajaimgproductos {
