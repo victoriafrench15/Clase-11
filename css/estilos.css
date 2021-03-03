@@ -1,3 +1,10 @@
+*{ margin: 0;
+  padding: 0;
+  }
+
+
+
+
 .body {
   font-family: sans-serif, "pt sans narrow"; }
 
@@ -25,3 +32,283 @@ li {
 footer {
   background-color: #b8b4b3;
   color: black; }
+
+
+/* CSS ---------------------------------- */
+
+
+  body {
+    /* font-family: sans-serif, 'pt sans narrow'; */
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+header{ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.tituloprincipal{
+    margin: 0%;
+    padding: 2%;
+}
+
+nav {
+    margin-top: 0%;
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.navli{
+    color: #b8b4b3;
+    display: inline-block;
+    text-decoration:none;
+    -ms-flex-align: end;
+}
+
+.navli:hover {
+    border-top: 1px solid  #b8b4b3;
+    border-bottom: 1px solid #b8b4b3;
+    color:#b8b4b3;
+    
+}
+
+li{
+    list-style-position:inside;
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+    
+}
+
+.titulos {
+    text-align: center;
+    margin: 2%;
+}
+
+.cajaimginicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#botonvermas:hover {
+    transform: scale(1.5);
+    color:#b8b4b3;
+}
+
+.boton:hover {
+    background-color: rgb(187, 184, 184);
+}
+
+.page-item{
+    color:#b8b4b3;
+}
+
+.page-item:hover{
+    color:#b8b4b3;
+}
+
+.page-link{
+    color:#b8b4b3;
+}
+
+.page-link:hover{
+    color:#b8b4b3;
+}
+
+.cajaimgproductos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgproductos{
+    height: 15%;
+    width: 15%;
+    margin: 3%;
+}
+
+.imgproductos:hover{
+    width: 30% ;
+    height: 30%;
+    transition: all 3s;
+}
+
+.articulo1{
+  display: grid;
+  grid-template-columns: 50% 41%;
+  grid-column-gap: 2%;
+  grid-row: 40% 60%;
+  grid-row-gap: 2%;
+  margin-bottom: 3%;
+  grid-template-areas: 
+  "tituloart1 tituloart1"
+  "video1 textoart1";
+}
+
+.tituloart1 {
+  grid-area: tituloart1;
+}
+.video1 {
+  grid-area: video1;
+}
+.textoart1 {
+  grid-area: textoart1;
+}
+
+.articulo2{
+  display: grid;
+  grid-template-columns: 50% 41%;
+  grid-column-gap: 2%;
+  grid-row: 40% 60%;
+  grid-row-gap: 2%;
+  grid-template-areas: 
+  "tituloart2 tituloart2"
+  "video2 textoart2";
+}
+
+.tituloart2 {
+  grid-area: tituloart2;
+  margin-bottom: 1%;
+}
+.video2 {
+  grid-area: video2;
+}
+.textoart2 {
+  grid-area: textoart2;
+}
+
+.textoart1 p {
+  text-align: justify;
+}
+
+.textoart2 p {
+  text-align: justify;
+}
+
+
+.contenedorconocenos{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-areas: 
+    "fotoconocenos textoconocenos ";
+    margin: 5% 0%;
+    column-gap: 3%;
+}
+
+.fotoconocenos {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoconocenos {
+    text-align: justify;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#form-div {
+	background-color:rgba(138, 136, 136, 0.4);
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:10%;
+	padding-bottom:10%;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight:500px;
+	font-size: 90%;
+	border-radius: 1px;
+	line-height: 10%;
+	background-color: #fbfbfb;
+	padding: 5% 5% 5% 5%;
+	margin-bottom: 10%;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #b6d1e4;
+	color: #b6d1e4;
+	outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.contacto {
+    margin-top: 40%;
+    margin-bottom: 10%;
+}
+
+footer{
+    font-size: 80%;
+    padding: 2%;
+    margin: 3% 0%;
+    clear: both;
+    height: 10%;
+}
+
+.footera{
+    color:black;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
