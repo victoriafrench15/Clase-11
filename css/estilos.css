@@ -2,11 +2,9 @@
   padding: 0;
   }
 
-
-
-
 .body {
   font-family: sans-serif, "pt sans narrow"; }
+
 
 .tituloprincipal, .titulos, #subtitulo {
   font-size: 10vw;
@@ -133,77 +131,25 @@ li{
     margin: 3%;
 }
 
+.imagen404 {
+  height: 30%;
+  width: 30%;
+  margin-top: 3%;
+}
+
 .imgproductos:hover{
     width: 30% ;
     height: 30%;
     transition: all 3s;
 }
 
-.articulo1{
-  display: grid;
-  grid-template-columns: 50% 41%;
-  grid-column-gap: 2%;
-  grid-row: 40% 60%;
-  grid-row-gap: 2%;
-  margin-bottom: 3%;
-  grid-template-areas: 
-  "tituloart1 tituloart1"
-  "video1 textoart1";
-}
-
-.tituloart1 {
-  grid-area: tituloart1;
-}
-.video1 {
-  grid-area: video1;
-}
-.textoart1 {
-  grid-area: textoart1;
-}
-
-.articulo2{
-  display: grid;
-  grid-template-columns: 50% 41%;
-  grid-column-gap: 2%;
-  grid-row: 40% 60%;
-  grid-row-gap: 2%;
-  grid-template-areas: 
-  "tituloart2 tituloart2"
-  "video2 textoart2";
-}
-
-.tituloart2 {
-  grid-area: tituloart2;
-  margin-bottom: 1%;
-}
-.video2 {
-  grid-area: video2;
-}
-.textoart2 {
-  grid-area: textoart2;
-}
-
-.textoart1 p {
+.textoart {
   text-align: justify;
-}
-
-.textoart2 p {
-  text-align: justify;
-}
-
-
-.contenedorconocenos{
-    display: grid;
-    grid-template-columns: 50% 45%;
-    grid-template-areas: 
-    "fotoconocenos textoconocenos ";
-    margin: 5% 0%;
-    column-gap: 3%;
 }
 
 .fotoconocenos {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 .textoconocenos {
@@ -294,8 +240,8 @@ textarea {
 }
 
 .contacto {
-    margin-top: 40%;
-    margin-bottom: 10%;
+  width: 80%;
+  margin: 30% 30% 30% 30%;
 }
 
 footer{
