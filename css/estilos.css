@@ -9,6 +9,9 @@
   font-weight: bold;
   text-decoration: none; }
 
+.paginaprincipal {
+  margin-bottom: 4%; }
+
 .tituloprincipal:hover, .titulos:hover, #subtitulo:hover {
   color: #b8b4b3;
   text-decoration: none; }
@@ -26,6 +29,14 @@ li {
   font-size: 2vw;
   font-weight: bold; }
 
+.botonvermas {
+  text-decoration: none;
+  color: #b8b4b3; }
+
+.botonvermas:hover {
+  text-decoration: none;
+  color: #b8b4b3; }
+
 footer {
   font-size: 80%;
   padding: 2%;
@@ -41,7 +52,6 @@ footer {
   color: #5e5d5d;
   font-size: large;
   text-decoration: none;
-  margin-top: 3%;
   font-weight: bold; }
 
 .footerb:hover {
@@ -101,13 +111,6 @@ li {
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: row; }
-
-#botonvermas:hover {
-  transform: scale(1.5);
-  color: #b8b4b3; }
-
-.boton:hover {
-  background-color: #bbb8b8; }
 
 .page-item {
   color: #b8b4b3; }

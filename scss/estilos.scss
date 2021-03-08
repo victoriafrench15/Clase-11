@@ -18,6 +18,10 @@ $links: none;
     text-decoration: $links;
 }
 
+.paginaprincipal {
+    margin-bottom: 4%;
+}
+
 .tituloprincipal:hover {
     color: $color;
     text-decoration: none
@@ -41,6 +45,16 @@ li{
     font-weight: $negrita;
 }
 
+.botonvermas {
+    text-decoration: none;
+    color: $color;
+}
+
+.botonvermas:hover{
+    text-decoration: none;
+    color: $color;
+}
+
 footer {
     font-size: 80%;
     padding: 2%;
@@ -58,7 +72,6 @@ footer {
     color: rgb(94, 93, 93);
     font-size: large;
     text-decoration: none;
-    margin-top: 3%;
     font-weight: bold;
 }
 
@@ -132,15 +145,6 @@ li{
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
-}
-
-#botonvermas:hover {
-    transform: scale(1.5);
-    color:#b8b4b3;
-}
-
-.boton:hover {
-    background-color: rgb(187, 184, 184);
 }
 
 .page-item{
