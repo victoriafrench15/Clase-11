@@ -20,19 +20,20 @@ $links: none;
 
 .tituloprincipal:hover {
     color: $color;
+    text-decoration: none
 }
 
 .titulos {
     @extend .tituloprincipal;
     font-size: ($font-size)-5;
+    color: #868686;
 }
 
 #subtitulo{
     @extend .tituloprincipal;
     font-size: ($font-size)-6;
+    color: #868686;
 }
-
-
 
 li{
     color: $color;
@@ -40,9 +41,35 @@ li{
     font-weight: $negrita;
 }
 
-footer{
+footer {
+    font-size: 80%;
+    padding: 2%;
+    clear: both;
+    height: 10%;
     background-color: $color;
-    color:$text
+}
+
+.footera {
+    color: $text;
+    text-decoration: none;
+}
+
+.footerb {
+    color: rgb(94, 93, 93);
+    font-size: large;
+    text-decoration: none;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.footerb:hover {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.copyright {
+    background-color: #9e9d9d;
+    padding: 0%;
 }
 
 /* CSS ---------------------------------- */
@@ -280,19 +307,4 @@ textarea {
 .contacto {
     margin-top: 40%;
     margin-bottom: 10%;
-}
-
-footer{
-    font-size: 80%;
-    padding: 2%;
-    margin: 3% 0%;
-    clear: both;
-    height: 10%;
-}
-
-.footera{
-    color:black;
-    font-size: large;
-    text-decoration: none;
-    font-weight: bold;
 }
