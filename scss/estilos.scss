@@ -181,37 +181,8 @@ li{
     transition: all 3s;
 }
 
-.articulo1{
-    display: grid;
-}
-
-.textoart1{
+.textoart{
     text-align: justify;
-}
-
-.articulo2{
-    display: grid;
-    grid-template-areas: 
-    "video2 textoart2"
-    "textoart2 textoart2";
-}
-
-.video2 {
-    grid-area:"video2";
-}
-
-.textart2{
-    grid-area: "textoart2";
-    text-align: justify;
-}
-
-.contenedorconocenos{
-    display: grid;
-    grid-template-columns: 50% 45%;
-    grid-template-areas: 
-    "fotoconocenos textoconocenos ";
-    margin: 5% 0%;
-    column-gap: 3%;
 }
 
 .fotoconocenos {
