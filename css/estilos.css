@@ -139,10 +139,8 @@ li {
   text-align: justify; }
 
 .fotoconocenos {
-  background-image: url("fotos/fotoconocenos.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  width: 100%;
+  margin: auto; }
 
 .textoconocenos {
   text-align: justify; }
