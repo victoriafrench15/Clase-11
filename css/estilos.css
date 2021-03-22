@@ -37,34 +37,11 @@ li {
   text-decoration: none;
   color: #b8b4b3; }
 
-footer {
-  font-size: 80%;
-  clear: both;
-  height: 10%;
-  padding-top: 1%;
-  background-color: #b8b4b3; }
-
-.footera {
-  color: black;
-  text-decoration: none; }
-
-.footerb {
-  color: #5e5d5d;
-  font-size: large;
-  text-decoration: none;
-  font-weight: bold; }
-
-.footerb:hover {
-  text-decoration: none;
-  color: #4e4e4e; }
-
 .copyright {
   background-color: #9e9d9d;
   padding: 0%; }
 
-/* CSS ---------------------------------- */
 body {
-  /* font-family: sans-serif, 'pt sans narrow'; */
   text-align: center;
   font-style: normal;
   text-decoration: none;
@@ -221,3 +198,24 @@ textarea {
 .contacto {
   width: 90%;
   margin: auto; }
+
+footer {
+  font-size: 80%;
+  clear: both;
+  height: 10%;
+  padding-top: 1%;
+  background-color: #b8b4b3; }
+
+.footera {
+  color: black;
+  text-decoration: none; }
+
+.footerb {
+  color: #5e5d5d;
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold; }
+
+.footerb:hover {
+  text-decoration: none;
+  color: #4e4e4e; }
